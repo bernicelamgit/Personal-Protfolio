@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+#navbar{
+    position: fixed;
+    background-color: rgb(227, 90, 90);
+    width: 100%;
+    padding: 10px 30px;
+}
+ nav ul a:hover{
+    background-color: rgb(93, 93, 141);
+    
+
+ }
+ nav ul a{
+    padding: 30px 20px;
+ }
+
+nav ul{
+    height: 30px;
+
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media (max-width:600px){
+    nav ul{
+        justify-content: center;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#welcome-section{
+   
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 42, 42);
+    color: white;
+}
+
+#welcome-section h1, #contact h1{
+    font-size: 48px;
+}
+
+body{
+    margin:0;
+}
+
+#projects{
+    
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    
+}
+#projects-section{
+    padding-top: 70px;
+    background-color: rgb(93, 93, 141) ;
+   
+    
+
+}
+#projects-section h1{
+    border-bottom: 2px solid white;
+    padding: 0 20px 20px 20px;
+    width: fit-content;
+    font-size: 28px;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    height: 300px;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+p, h1{
+    text-align: center;
+    color: white;
+}
+.project-title{
+    width: 300px;
+    
+
+}
+.project-title p{
+    background-color: rgb(46, 42, 42);
+    margin-top: -2px;
+    height: 50px;
+    padding-top: 15px;
+}
+#contact{
+    background-color:rgb(46, 42, 42) ;
+    padding: 70px;
+}
+
+#contact-links{
+    display: flex;
+}
+
